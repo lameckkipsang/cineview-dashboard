@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+.dashboard-wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: 
+        "header header"
+        "sidebar main";
+    gap: 1rem;
+    padding: 1rem;
+}
+.top-nav { grid-area: header;}
+.sidebar { grid-area: sidebar;}
+.content-area {grid-area:main;}
