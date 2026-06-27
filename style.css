@@ -42,3 +42,16 @@ body {
     border: 2px dashed #ccc;
     margin-top: 2rem;
 }
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    gap: 1rem;
+}
+.movie-card {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0.5rem;
+    background: #fff;
+    text-align:center;
+}
